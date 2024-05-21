@@ -100,7 +100,7 @@ fetch("https://fakestoreapi.com/products")
                 <div class="container">
                     <div class="user-card " onclick="showProductDetails(${user.id})">
                         <div class="title">
-                            <p>${user.title}}</p>
+                            <p>${user.title}</p>
                         </div>
                         <div class="card-img">
                             <img src="${user.image}" alt="">
